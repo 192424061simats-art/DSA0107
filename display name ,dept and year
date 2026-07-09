@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string name, dept;
+    int year;
+    cout << "Enter Name: ";
+    cin >> name;
+    cout << "Enter Department: ";
+    cin >> dept;
+    cout << "Enter Year: ";
+    cin >> year;
+    cout << "\nHello World" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Department: " << dept << endl;
+    cout << "Year: " << year << endl;
+    return 0;
+}
