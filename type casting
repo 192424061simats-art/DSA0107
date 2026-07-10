@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 10;
+    float b = a;
+    cout << "Implicit int to float: " << b << endl;
+    float c = 5.5;
+    cout << "Implicit int + float: " << a + c << endl;
+    cout << "Explicit float to int: " << (int)c << endl;
+    cout << "Explicit int division to float: " << (float)5 / 2 << endl;
+    return 0;
+}
